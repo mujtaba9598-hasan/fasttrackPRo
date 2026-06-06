@@ -1,0 +1,17 @@
+# keep the repo lean and deployable on GitHub Pages
+*.zip
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+# dev-only artifacts / heavy backups (never deploy these)
+**/_original/
+_preview*.png
+_full*.png
+_chk*.png
+_foot*.png
+_home*.png
+_svc*.png
+_contact*.png
+build_pages.py
+process_logo*.py

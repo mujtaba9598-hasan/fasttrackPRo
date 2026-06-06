@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fast Track Pro Services Group | Business Setup, Visa & PRO Services in the UAE</title>
+<meta name="description" content="Fast Track Pro Services Group, Abu Dhabi. Company formation, trade licenses, Golden Visa, employment and family visas, insurance, Daman fine reduction, car permits and government PRO services across all 7 Emirates. Fast, reliable, professional.">
+<meta name="theme-color" content="#102048">
+<link rel="icon" type="image/png" href="assets/logos/favicon.png">
+
+<!-- Open Graph for WhatsApp / social link previews (absolute URLs required) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fast Track Pro Services Group">
+<meta property="og:title" content="Fast Track Pro Services Group | Business & PRO Services UAE">
+<meta property="og:description" content="Your trusted one-stop partner for Business Setup, Visa, Insurance, Vehicle and Government PRO services across all 7 Emirates. We make it easy.">
+<meta property="og:url" content="https://mujtaba9598-hasan.github.io/fasttrackPRo/express/">
+<meta property="og:image" content="https://mujtaba9598-hasan.github.io/fasttrackPRo/express/assets/brand/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fast Track Pro Services Group | Business & PRO Services UAE">
+<meta name="twitter:description" content="Your trusted one-stop partner for Business, Visa, Insurance, Vehicle and PRO services across all 7 Emirates.">
+<meta name="twitter:image" content="https://mujtaba9598-hasan.github.io/fasttrackPRo/express/assets/brand/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --navy:#102048; --navy-2:#0a1838; --navy-soft:#1b2c5c;
+  --red:#D81020; --red-2:#b00d1a;
+  --ink:#1d2433; --muted:#5b6577; --line:#e6eaf1;
+  --bg:#ffffff; --bg-soft:#f4f7fc; --bg-soft-2:#eef3fa;
+  --white:#ffffff;
+  --shadow-sm:0 2px 10px rgba(16,32,72,.06);
+  --shadow:0 12px 34px rgba(16,32,72,.10);
+  --shadow-lg:0 26px 60px rgba(16,32,72,.18);
+  --r:16px; --r-sm:10px; --maxw:1200px;
+  --head:'Plus Jakarta Sans',system-ui,sans-serif;
+  --body:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:var(--head);line-height:1.15;color:var(--navy);font-weight:800;letter-spacing:-.01em}
+section{scroll-margin-top:96px}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--head);font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--red);display:inline-block}
+.sec-head{max-width:720px;margin:0 auto 52px;text-align:center}
+.sec-head h2{font-size:clamp(1.7rem,3.4vw,2.5rem);margin:14px 0 14px}
+.sec-head p{color:var(--muted);font-size:1.05rem}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--head);font-weight:700;font-size:.95rem;padding:13px 24px;border-radius:var(--r-sm);border:2px solid transparent;cursor:pointer;transition:.22s ease;white-space:nowrap}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-red{background:var(--red);color:#fff;box-shadow:0 10px 22px rgba(216,16,32,.28)}
+.btn-red:hover{background:var(--red-2);transform:translateY(-2px)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-soft);transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--navy);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--navy);transform:translateY(-2px)}
+.btn-white{background:#fff;color:var(--navy)}
+.btn-white:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.btn-wa{background:#25D366;color:#0a3d1c}
+.btn-wa:hover{background:#1ebe5a;transform:translateY(-2px)}
+
+/* top bar */
+.topbar{background:var(--navy-2);color:#cdd6ec;font-size:.85rem}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:18px;padding-top:9px;padding-bottom:9px}
+.topbar a{color:#cdd6ec;display:inline-flex;align-items:center;gap:7px;transition:.2s}
+.topbar a:hover{color:#fff}
+.topbar svg{width:15px;height:15px}
+.topbar .tb-left{display:flex;gap:22px;flex-wrap:wrap}
+.topbar .tb-right{display:flex;gap:16px;align-items:center}
+.tb-area{color:#8fa0c8}
+.tb-socials{display:flex;gap:10px}
+.tb-socials a{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.08);justify-content:center}
+.tb-socials a:hover{background:var(--red)}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--line);transition:box-shadow .25s}
+.nav.scrolled{box-shadow:0 6px 24px rgba(16,32,72,.09)}
+.nav .container{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:12px;padding-bottom:12px}
+.brand img{height:50px;width:auto}
+.nav-links{display:flex;align-items:center;gap:6px}
+.nav-links>li{position:relative;list-style:none}
+.nav-links>li>a{font-family:var(--head);font-weight:600;font-size:.96rem;color:var(--navy);padding:10px 14px;border-radius:8px;display:inline-flex;align-items:center;gap:6px;transition:.18s}
+.nav-links>li>a:hover{background:var(--bg-soft);color:var(--red)}
+.caret{width:14px;height:14px;transition:.2s}
+.has-drop:hover .caret{transform:rotate(180deg)}
+/* dropdown */
+.dropdown{position:absolute;top:calc(100% + 10px);left:0;width:330px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-lg);padding:10px;opacity:0;visibility:hidden;transform:translateY(8px);transition:.2s}
+.has-drop:hover .dropdown,.has-drop.open .dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown::before{content:"";position:absolute;top:-6px;left:28px;width:12px;height:12px;background:#fff;border-left:1px solid var(--line);border-top:1px solid var(--line);transform:rotate(45deg)}
+.drop-item{display:flex;gap:12px;align-items:flex-start;padding:11px 12px;border-radius:10px;transition:.16s}
+.drop-item:hover{background:var(--bg-soft)}
+.drop-ic{width:38px;height:38px;border-radius:9px;background:var(--bg-soft-2);display:flex;align-items:center;justify-content:center;flex:none;color:var(--navy)}
+.drop-item:hover .drop-ic{background:var(--navy);color:#fff}
+.drop-ic svg{width:20px;height:20px}
+.drop-txt b{display:block;font-family:var(--head);font-size:.92rem;color:var(--navy)}
+.drop-txt span{font-size:.8rem;color:var(--muted)}
+.nav-cta{display:flex;align-items:center;gap:10px}
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.hamburger span{width:24px;height:2.5px;background:var(--navy);border-radius:2px;transition:.25s}
+
+/* hero */
+.hero{position:relative;background:radial-gradient(1100px 500px at 80% -10%,#1b2c5c 0%,transparent 60%),linear-gradient(160deg,#102048,#0a1430);color:#fff;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(115deg,rgba(255,255,255,.03) 0 2px,transparent 2px 26px);pointer-events:none}
+.hero .container{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-top:70px;padding-bottom:70px;position:relative;z-index:2}
+.hero h1{color:#fff;font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.08}
+.hero h1 .hl{color:#ffd34d}
+.tagline{display:flex;gap:14px;align-items:center;margin:18px 0 4px;font-family:var(--head);font-weight:700;letter-spacing:.04em;color:#aab8de;flex-wrap:wrap}
+.tagline .dot{width:6px;height:6px;border-radius:50%;background:var(--red)}
+.hero p.lead{color:#c4cee8;font-size:1.08rem;margin:14px 0 26px;max-width:540px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.trust-chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}
+.chip{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);padding:9px 14px;border-radius:40px;font-size:.84rem;font-weight:600;color:#e7ecf8}
+.chip svg{width:16px;height:16px;color:#3ddc84}
+.hero-visual{position:relative}
+.hero-visual img{border-radius:20px;box-shadow:var(--shadow-lg);border:5px solid rgba(255,255,255,.08)}
+.hero-badge{position:absolute;left:-18px;bottom:26px;background:#fff;color:var(--navy);border-radius:14px;padding:14px 18px;box-shadow:var(--shadow-lg);display:flex;gap:12px;align-items:center}
+.hero-badge .hb-ic{width:42px;height:42px;border-radius:10px;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center}
+.hero-badge .hb-ic svg{width:22px;height:22px}
+.hero-badge b{font-family:var(--head);font-size:1.05rem;display:block;line-height:1.1}
+.hero-badge span{font-size:.78rem;color:var(--muted)}
+
+/* combo offer strip */
+.offer{background:linear-gradient(120deg,var(--red),#a50c18);color:#fff}
+.offer .container{display:flex;align-items:center;justify-content:center;gap:16px 26px;flex-wrap:wrap;padding:18px 24px;text-align:center}
+.offer .flame{width:26px;height:26px;flex:none}
+.offer b{font-family:var(--head);font-size:clamp(1rem,2.2vw,1.3rem);font-weight:800}
+.offer b .price{background:#fff;color:var(--red);padding:2px 12px;border-radius:8px;margin:0 4px}
+.offer small{display:block;font-size:.74rem;opacity:.85;font-weight:500}
+.offer .btn{background:#fff;color:var(--red)}
+
+/* generic section */
+.section{padding:88px 0}
+.bg-soft{background:var(--bg-soft)}
+
+/* services */
+.svc{display:flex;flex-direction:column;gap:64px}
+.svc-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.svc-row.rev .svc-media{order:2}
+.svc-media{position:relative}
+.svc-media img{border-radius:18px;box-shadow:var(--shadow);aspect-ratio:4/3;object-fit:cover;width:100%}
+.svc-badge{position:absolute;top:-18px;left:-18px;width:66px;height:66px;border-radius:16px;background:#fff;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+.svc-badge svg{width:34px;height:34px;color:var(--navy)}
+.svc-num{font-family:var(--head);font-weight:800;color:var(--bg-soft-2);font-size:3.4rem;line-height:1;letter-spacing:-.03em}
+.bg-soft .svc-num{color:#dde6f3}
+.svc-info h3{font-size:clamp(1.4rem,2.8vw,1.95rem);margin:6px 0 14px}
+.svc-info>p{color:var(--muted);margin-bottom:18px}
+.svc-list{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-bottom:24px}
+.svc-list li{list-style:none;display:flex;gap:9px;align-items:flex-start;font-size:.93rem;font-weight:500}
+.svc-list svg{width:18px;height:18px;color:var(--red);flex:none;margin-top:3px}
+.svc-info .links{display:flex;gap:12px;flex-wrap:wrap}
+
+/* packages */
+.pkg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.pkg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;display:flex;flex-direction:column;transition:.22s;position:relative}
+.pkg:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:transparent}
+.pkg.feat{background:linear-gradient(165deg,#102048,#0b1734);color:#fff;border:0;box-shadow:var(--shadow-lg)}
+.pkg.feat h3,.pkg.feat .amt{color:#fff}
+.ribbon{position:absolute;top:16px;right:-6px;background:var(--red);color:#fff;font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.04em;padding:5px 14px;border-radius:6px 0 0 6px}
+.pkg .pk-cat{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--red)}
+.pkg.feat .pk-cat{color:#ffd34d}
+.pkg h3{font-size:1.12rem;margin:10px 0 14px;min-height:2.4em}
+.price-row{display:flex;align-items:baseline;gap:6px;margin-bottom:6px}
+.price-row .cur{font-family:var(--head);font-weight:700;font-size:.95rem;color:var(--muted)}
+.pkg.feat .price-row .cur{color:#aeb9d8}
+.amt{font-family:var(--head);font-weight:800;font-size:2.2rem;color:var(--navy);line-height:1}
+.pkg .fromlbl{font-size:.78rem;color:var(--muted);margin-bottom:16px}
+.pkg.feat .fromlbl{color:#aeb9d8}
+.pkg .incl{font-size:.85rem;color:var(--muted);margin-bottom:20px;flex:1}
+.pkg.feat .incl{color:#cdd6ec}
+.pkg .btn{width:100%;justify-content:center;margin-top:auto}
+.pkg-note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:22px}
+.more{margin-top:48px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:34px 30px;text-align:center}
+.more h3{font-size:1.4rem;margin-bottom:8px}
+.more>p{color:var(--muted);max-width:620px;margin:0 auto 24px;font-size:.96rem}
+.more-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.more-chip{display:flex;flex-direction:column;gap:3px;align-items:flex-start;text-align:left;background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.18s}
+.more-chip:hover{background:#fff;border-color:var(--navy);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.more-chip b{font-family:var(--head);font-size:.92rem;color:var(--navy);line-height:1.2}
+.more-chip span{font-size:.78rem;color:var(--red);font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.more-chip span svg{width:13px;height:13px}
+@media(max-width:980px){.more-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.more-grid{grid-template-columns:1fr}}
+
+/* why us */
+.why{background:radial-gradient(900px 400px at 15% 0%,#1b2c5c 0,transparent 55%),linear-gradient(160deg,#102048,#0a1430);color:#fff}
+.why .sec-head h2{color:#fff}
+.why .sec-head p{color:#bcc7e4}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.why-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:28px 24px;transition:.22s}
+.why-card:hover{background:rgba(255,255,255,.09);transform:translateY(-5px)}
+.why-ic{width:54px;height:54px;border-radius:13px;background:var(--red);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.why-ic svg{width:28px;height:28px;color:#fff}
+.why-card h3{color:#fff;font-size:1.15rem;margin-bottom:8px}
+.why-card p{color:#bcc7e4;font-size:.92rem}
+
+/* trust band */
+.trust .container{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.trust h2{font-size:clamp(1.6rem,3vw,2.2rem);margin:14px 0 14px}
+.trust p{color:var(--muted);margin-bottom:24px}
+.stats{display:flex;gap:14px;flex-wrap:wrap}
+.stat{background:var(--bg-soft);border-radius:12px;padding:16px 20px;min-width:140px;flex:1}
+.stat b{font-family:var(--head);font-size:1.5rem;color:var(--navy);display:block}
+.stat span{font-size:.84rem;color:var(--muted)}
+.clients{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.client{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm)}
+.client img{aspect-ratio:1;object-fit:cover;width:100%}
+.client .c-body{padding:14px 16px}
+.client .stars{display:flex;gap:2px;color:#ffb400;margin-bottom:6px}
+.client .stars svg{width:15px;height:15px}
+.client b{font-family:var(--head);font-size:.92rem;color:var(--navy);display:block}
+.client span{font-size:.78rem;color:var(--muted)}
+
+/* service area */
+.area{position:relative;background:linear-gradient(160deg,#0a1430,#102048);color:#fff;overflow:hidden}
+.area .bgimg{position:absolute;inset:0;opacity:.16;object-fit:cover;width:100%;height:100%}
+.area .container{position:relative;z-index:2;text-align:center}
+.area h2{color:#fff;font-size:clamp(1.6rem,3vw,2.3rem);margin:14px 0 12px}
+.area p{color:#c4cee8;max-width:620px;margin:0 auto 30px}
+.emirates{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.emirate{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);padding:11px 20px;border-radius:40px;font-family:var(--head);font-weight:600;font-size:.95rem}
+.emirate svg{width:17px;height:17px;color:var(--red)}
+
+/* contact */
+.contact .container{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.contact-info h2{font-size:clamp(1.6rem,3vw,2.3rem);margin:14px 0 16px}
+.contact-info>p{color:var(--muted);margin-bottom:26px}
+.ci-list{display:flex;flex-direction:column;gap:18px;margin-bottom:28px}
+.ci{display:flex;gap:14px;align-items:flex-start}
+.ci-ic{width:46px;height:46px;border-radius:11px;background:var(--bg-soft-2);display:flex;align-items:center;justify-content:center;flex:none;color:var(--navy)}
+.ci-ic svg{width:22px;height:22px}
+.ci b{font-family:var(--head);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700}
+.ci a,.ci span{display:block;font-size:1.05rem;color:var(--navy);font-weight:600}
+.ci a:hover{color:var(--red)}
+.contact-cta{display:flex;gap:12px;flex-wrap:wrap}
+.form-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:30px}
+.form-card h3{font-size:1.3rem;margin-bottom:6px}
+.form-card>p{color:var(--muted);font-size:.9rem;margin-bottom:20px}
+.field{margin-bottom:15px}
+.field label{display:block;font-size:.82rem;font-weight:600;color:var(--navy);margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;font-family:var(--body);font-size:.95rem;color:var(--ink);background:#fdfdff;transition:.18s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(16,32,72,.08)}
+.field textarea{resize:vertical;min-height:90px}
+.form-card .btn{width:100%;justify-content:center}
+.form-note{font-size:.78rem;color:var(--muted);text-align:center;margin-top:12px}
+
+/* footer */
+.footer{background:var(--navy-2);color:#aab6d4;font-size:.92rem}
+.footer .container{padding-top:64px;padding-bottom:30px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:36px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.1)}
+.foot-brand img{height:54px;margin-bottom:16px}
+.foot-brand p{color:#9aa7c8;max-width:300px}
+.foot-soc{display:flex;gap:10px;margin-top:18px}
+.foot-soc a{width:36px;height:36px;border-radius:9px;background:rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;transition:.2s}
+.foot-soc a:hover{background:var(--red)}
+.foot-soc svg{width:18px;height:18px;color:#fff}
+.footer h4{color:#fff;font-size:.95rem;margin-bottom:16px;letter-spacing:.02em}
+.footer ul{list-style:none}
+.footer ul li{margin-bottom:10px}
+.footer ul a:hover{color:#fff}
+.foot-contact div{display:flex;gap:9px;margin-bottom:12px;align-items:flex-start}
+.foot-contact svg{width:17px;height:17px;color:var(--red);flex:none;margin-top:3px}
+.foot-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding-top:24px;font-size:.84rem;color:#8593b6}
+.foot-bottom a{color:#cdd6ec}
+.foot-bottom a:hover{color:#fff}
+
+/* floating whatsapp */
+.fab{position:fixed;right:22px;bottom:22px;z-index:80;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(37,211,102,.45);transition:.22s}
+.fab:hover{transform:scale(1.08)}
+.fab svg{width:32px;height:32px;color:#fff}
+.fab::before{content:"";position:absolute;inset:0;border-radius:50%;background:#25D366;animation:pulse 2.2s infinite;z-index:-1}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.7);opacity:0}100%{opacity:0}}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* responsive */
+@media(max-width:980px){
+  .hero .container{grid-template-columns:1fr;gap:36px}
+  .hero-visual{max-width:460px}
+  .trust .container,.contact .container{grid-template-columns:1fr;gap:32px}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .pkg-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:760px){
+  .topbar .tb-left .tb-mail{display:none}
+  .nav-links{position:fixed;inset:0 0 0 auto;width:min(86vw,340px);background:#fff;flex-direction:column;align-items:stretch;padding:84px 20px 30px;gap:4px;transform:translateX(100%);transition:.3s;box-shadow:var(--shadow-lg);overflow-y:auto}
+  .nav-links.open{transform:none}
+  .nav-links>li>a{padding:14px 12px;font-size:1rem;justify-content:space-between}
+  .dropdown{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;width:auto;padding:4px 0 8px 8px;display:none}
+  .dropdown::before{display:none}
+  .has-drop.open .dropdown{display:block}
+  .nav-cta .btn-text{display:none}
+  .hamburger{display:flex;z-index:70}
+  .hamburger.open span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+  .hamburger.open span:nth-child(2){opacity:0}
+  .hamburger.open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+  .svc-row,.svc-row.rev .svc-media{grid-template-columns:1fr;order:0}
+  .svc-list{grid-template-columns:1fr}
+  .why-grid,.pkg-grid,.clients,.foot-grid{grid-template-columns:1fr}
+  .section{padding:64px 0}
+  .hero-badge{left:10px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container">
+    <div class="tb-left">
+      <a href="tel:+971523120954" aria-label="Call">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+        052 312 0954</a>
+      <a class="tb-mail" href="mailto:fasttrackpro936@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        fasttrackpro936@gmail.com</a>
+    </div>
+    <div class="tb-right">
+      <span class="tb-area">Serving all 7 Emirates</span>
+      <div class="tb-socials">
+        <a href="https://www.facebook.com/FastTrackPROServices" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h3l1-3h-4V9c0-.6.4-1 1-1Z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://wa.me/971523120954" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.5A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.6-.1 1Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a class="brand" href="#home" aria-label="Fast Track Pro Services Group home">
+      <img src="assets/logos/fast-track-pro-logo.png" alt="Fast Track Pro Services Group">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li class="has-drop" id="svcDrop">
+        <a href="#services">Services
+          <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="dropdown">
+          <a class="drop-item" href="#business-setup"><span class="drop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h0M9 13h0M9 17h0M15 9h0M15 13h0M15 17h0"/></svg></span><span class="drop-txt"><b>Business Setup &amp; Licensing</b><span>Company formation, trade licenses, workspace</span></span></a>
+          <a class="drop-item" href="#visa-immigration"><span class="drop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="4" y="2" width="16" height="20" rx="2"/><circle cx="12" cy="9" r="2.6"/><path d="M8 16c.8-2 2.3-3 4-3s3.2 1 4 3"/></svg></span><span class="drop-txt"><b>Visa &amp; Immigration</b><span>Golden, employment, family, all visas</span></span></a>
+          <a class="drop-item" href="#insurance"><span class="drop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="drop-txt"><b>Insurance &amp; Fine Reduction</b><span>Health, visa insurance, Daman redaction</span></span></a>
+          <a class="drop-item" href="#vehicle"><span class="drop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M5 16V11l2-5h10l2 5v5M5 16h14M5 16v2H3v-2M19 16v2h2v-2"/><circle cx="8" cy="16" r="1.6"/><circle cx="16" cy="16" r="1.6"/></svg></span><span class="drop-txt"><b>Car Permit &amp; Vehicle</b><span>Registration, permits, Mulkiya, traffic file</span></span></a>
+          <a class="drop-item" href="#pro-services"><span class="drop-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z"/><path d="M14 2v6h6"/><circle cx="12" cy="14" r="2.4"/><path d="M9.5 19c.5-1.4 1.4-2 2.5-2s2 .6 2.5 2"/></svg></span><span class="drop-txt"><b>PRO &amp; Government</b><span>Document clearing, compliance, PRO support</span></span></a>
+        </div>
+      </li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#area">Coverage</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-red" href="https://wa.me/971523120954?text=Hello%20Fast%20Track%20Pro%20Services%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.5A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.6-.1 1Z"/></svg>
+        <span class="btn-text">WhatsApp Us</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="container">
+    <div class="hero-text reveal">
+      <span class="eyebrow">Business &amp; PRO Services in the UAE</span>
+      <h1>Your Trusted Partner for <span class="hl">Business &amp; PRO</span> Services</h1>
+      <div class="tagline"><span>Fast</span><span class="dot"></span><span>Reliable</span><span class="dot"></span><span>Professional</span></div>
+      <p class="lead">From company formation and Golden Visas to insurance, vehicle permits and government paperwork, Fast Track Pro Services Group handles it all under one roof, across every Emirate. We make it easy.</p>
+      <div class="hero-cta">
+        <a class="btn btn-wa" href="https://wa.me/971523120954?text=Hello%20Fast%20Track%20Pro%20Services%2C%20I%20would%20like%20a%20free%20consultation." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.5A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.6-.1 1Z"/></svg>
+          Free Consultation</a>
+        <a class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.25)" href="#services">Explore Services</a>
+      </div>
+      <div class="trust-chips">
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>100% Legal &amp; Safe</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Same-Day &amp; 24-Hour Options</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Zero Hidden Charges</span>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <img src="assets/img/hero-consultant.jpg" alt="Fast Track Pro consultant in a modern Abu Dhabi office">
+      <div class="hero-badge">
+        <span class="hb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <div><b>24-Hour</b><span>Dubai license renewal</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ COMBO OFFER ============ -->
+<div class="offer">
+  <div class="container">
+    <svg class="flame" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2s5 4 5 9a5 5 0 0 1-10 0c0-1.5.6-2.8 1.3-3.8C8.8 8.4 9 9.7 10 10c-.4-2 .8-5.5 2-8Z"/></svg>
+    <b>Special Combo: License Renewal + Virtual Office <span class="price">from AED 199*</span>
+      <small>Best Price Guaranteed. Limited promotional offer.</small></b>
+    <a class="btn" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20the%20AED%20199%20License%20Renewal%20%2B%20Virtual%20Office%20combo." target="_blank" rel="noopener">Claim Offer</a>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">What We Do</span>
+      <h2>One Stop Solution for Every UAE Service</h2>
+      <p>Business setup, the full visa suite, insurance, vehicle permits and government PRO work, handled by an expert team so you never deal with the queues.</p>
+    </div>
+
+    <div class="svc">
+      <!-- 1 Business Setup -->
+      <div class="svc-row reveal" id="business-setup">
+        <div class="svc-media">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h0M9 13h0M9 17h0M15 9h0M15 13h0M15 17h0"/></svg></span>
+          <img src="assets/img/svc-business-setup.jpg" alt="Business setup and company formation">
+        </div>
+        <div class="svc-info">
+          <span class="svc-num">01</span>
+          <h3>Business Setup, Licensing &amp; Workspace</h3>
+          <p>Launch and renew your company the easy way, with 100% ownership options and approved office solutions.</p>
+          <ul class="svc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Mainland, Freezone &amp; Offshore formation</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>New trade &amp; professional licenses</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>24-hour Dubai license renewal</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Tenancy contracts &amp; Ejari (DLD approved)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Virtual offices &amp; business address</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Bank account, tax &amp; accounting</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-navy" href="https://wa.me/971523120954?text=Hi%2C%20I%20need%20help%20with%20business%20setup%20%2F%20license." target="_blank" rel="noopener">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Visa -->
+      <div class="svc-row rev reveal" id="visa-immigration">
+        <div class="svc-media">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="2" width="16" height="20" rx="2"/><circle cx="12" cy="9" r="2.6"/><path d="M8 16c.8-2 2.3-3 4-3s3.2 1 4 3"/></svg></span>
+          <img src="assets/img/svc-visa-immigration.jpg" alt="Visa and immigration services">
+        </div>
+        <div class="svc-info">
+          <span class="svc-num">02</span>
+          <h3>Visa &amp; Immigration Services</h3>
+          <p>A complete visa suite for investors, employees and families, with dedicated fast-track support for Pakistani and Bangladeshi nationals.</p>
+          <ul class="svc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>UAE Golden Visa (10-year renewable)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Employment visas: new, renew, cancel</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Family &amp; sponsor visas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Maid, driver, domestic &amp; freelance visas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Tourist &amp; visit visas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Emirates ID, typing &amp; medical</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-navy" href="https://wa.me/971523120954?text=Hi%2C%20I%20need%20help%20with%20a%20visa." target="_blank" rel="noopener">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Insurance -->
+      <div class="svc-row reveal" id="insurance">
+        <div class="svc-media">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <img src="assets/img/svc-insurance.jpg" alt="Insurance and fine reduction services">
+        </div>
+        <div class="svc-info">
+          <span class="svc-num">03</span>
+          <h3>Insurance &amp; Fine Reduction</h3>
+          <p>Affordable health and visa insurance, plus specialised, fully legal Daman fine reduction so you can renew without worry.</p>
+          <ul class="svc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Newborn health insurance from day one</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Family &amp; dependent coverage</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Investor health insurance (age 60+)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Visa-related &amp; new insurance</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Daman fine reduction &amp; redaction</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Golden Visa holder redaction (60+)</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-navy" href="https://wa.me/971523120954?text=Hi%2C%20I%20need%20help%20with%20insurance%20%2F%20Daman%20fine%20reduction." target="_blank" rel="noopener">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Vehicle -->
+      <div class="svc-row rev reveal" id="vehicle">
+        <div class="svc-media">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 16V11l2-5h10l2 5v5M5 16h14M5 16v2H3v-2M19 16v2h2v-2"/><circle cx="8" cy="16" r="1.6"/><circle cx="16" cy="16" r="1.6"/></svg></span>
+          <img src="assets/img/svc-vehicle.jpg" alt="Car permit and vehicle services">
+        </div>
+        <div class="svc-info">
+          <span class="svc-num">04</span>
+          <h3>Car Permit &amp; Vehicle Services</h3>
+          <p>Same-day, hassle-free processing for everything your vehicle needs, from registration to traffic files.</p>
+          <ul class="svc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Vehicle registration &amp; renewal</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>New car permits</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Mulkiya processing</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Traffic file opening</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Plate details assistance</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Fast same-day processing</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-navy" href="https://wa.me/971523120954?text=Hi%2C%20I%20need%20help%20with%20a%20car%20permit%20%2F%20vehicle%20service." target="_blank" rel="noopener">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 PRO -->
+      <div class="svc-row reveal" id="pro-services">
+        <div class="svc-media">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z"/><path d="M14 2v6h6"/><circle cx="12" cy="14" r="2.4"/><path d="M9.5 19c.5-1.4 1.4-2 2.5-2s2 .6 2.5 2"/></svg></span>
+          <img src="assets/img/svc-pro-government.jpg" alt="PRO and government services">
+        </div>
+        <div class="svc-info">
+          <span class="svc-num">05</span>
+          <h3>PRO &amp; Government Services</h3>
+          <p>End-to-end professional guidance and document clearing, fully compliant with UAE government and DED regulations.</p>
+          <ul class="svc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Corporate PRO support</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Typing &amp; form filling</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Document verification</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>DED &amp; government compliance</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>100% safe &amp; secure handling</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 13 4 4L19 7"/></svg>Timely updates, minimal delays</li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-navy" href="https://wa.me/971523120954?text=Hi%2C%20I%20need%20PRO%20%2F%20government%20paperwork%20help." target="_blank" rel="noopener">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
+<section class="section bg-soft" id="packages">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Transparent Pricing</span>
+      <h2>Special Promotional Packages</h2>
+      <p>Competitive, all-inclusive pricing with zero hidden charges. Low investment, high returns.</p>
+    </div>
+    <div class="pkg-grid">
+      <div class="pkg feat reveal">
+        <span class="ribbon">BEST PRICE</span>
+        <span class="pk-cat">Combo Offer</span>
+        <h3>License Renewal + Virtual Office</h3>
+        <div class="price-row"><span class="cur">from AED</span><span class="amt">199</span></div>
+        <div class="fromlbl">starting price*</div>
+        <p class="incl">License renewal bundled with a virtual office package at our best guaranteed price.</p>
+        <a class="btn btn-red" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20the%20AED%20199%20combo%20package." target="_blank" rel="noopener">Get This Deal</a>
+      </div>
+      <div class="pkg reveal">
+        <span class="pk-cat">Insurance</span>
+        <h3>Visa-Related Insurance</h3>
+        <div class="price-row"><span class="cur">from AED</span><span class="amt">399</span></div>
+        <div class="fromlbl">starting price</div>
+        <p class="incl">Visa insurance processing to keep your application moving.</p>
+        <a class="btn btn-ghost" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20the%20Visa-Related%20Insurance%20package." target="_blank" rel="noopener">Enquire</a>
+      </div>
+      <div class="pkg reveal">
+        <span class="pk-cat">Fine Reduction</span>
+        <h3>Health Insurance Fine Reduction</h3>
+        <div class="price-row"><span class="cur">from AED</span><span class="amt">599</span></div>
+        <div class="fromlbl">starting price</div>
+        <p class="incl">Legal Daman fine reduction so you can renew your visa.</p>
+        <a class="btn btn-ghost" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20the%20Health%20Insurance%20Fine%20Reduction." target="_blank" rel="noopener">Enquire</a>
+      </div>
+      <div class="pkg reveal">
+        <span class="pk-cat">Insurance</span>
+        <h3>New Insurance Package</h3>
+        <div class="price-row"><span class="cur">from AED</span><span class="amt">699</span></div>
+        <div class="fromlbl">starting price</div>
+        <p class="incl">Fresh health insurance cover with affordable premiums.</p>
+        <a class="btn btn-ghost" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20a%20New%20Insurance%20Package." target="_blank" rel="noopener">Enquire</a>
+      </div>
+      <div class="pkg reveal">
+        <span class="pk-cat">Abu Dhabi</span>
+        <h3>Abu Dhabi Visa Insurance</h3>
+        <div class="price-row"><span class="cur">from AED</span><span class="amt">999</span></div>
+        <div class="fromlbl">starting price</div>
+        <p class="incl">Visa insurance tailored for Abu Dhabi requirements.</p>
+        <a class="btn btn-ghost" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20Abu%20Dhabi%20Visa%20Insurance." target="_blank" rel="noopener">Enquire</a>
+      </div>
+      <div class="pkg reveal">
+        <span class="pk-cat">License</span>
+        <h3>Trade License Renewal</h3>
+        <div class="price-row"><span class="cur">AED</span><span class="amt">1,500</span></div>
+        <div class="fromlbl">all inclusive</div>
+        <p class="incl">License, document clearance, DED procedures and mail handling.</p>
+        <a class="btn btn-ghost" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20the%20AED%201500%20Trade%20License%20Renewal." target="_blank" rel="noopener">Enquire</a>
+      </div>
+      <div class="pkg reveal">
+        <span class="pk-cat">Premium</span>
+        <h3>License Renewal + Virtual Office</h3>
+        <div class="price-row"><span class="cur">AED</span><span class="amt">2,000</span></div>
+        <div class="fromlbl">all inclusive</div>
+        <p class="incl">Premium bundle with full license renewal and virtual office.</p>
+        <a class="btn btn-ghost" href="https://wa.me/971523120954?text=Hi%2C%20I%20want%20the%20AED%202000%20Premium%20package." target="_blank" rel="noopener">Enquire</a>
+      </div>
+      <div class="pkg reveal" style="justify-content:center;align-items:flex-start;background:linear-gradient(165deg,#102048,#0b1734);color:#fff">
+        <span class="pk-cat" style="color:#ffd34d">Not sure?</span>
+        <h3 style="color:#fff">Tell us what you need</h3>
+        <p class="incl" style="color:#cdd6ec">Message us and we will build a package around your exact requirement.</p>
+        <a class="btn btn-wa" href="https://wa.me/971523120954?text=Hi%2C%20please%20suggest%20the%20right%20package%20for%20me." target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+    <p class="pkg-note">* Promotional starting prices. Final cost depends on activity type and government fees. Message us for an exact, no-obligation quote.</p>
+
+    <div class="more reveal">
+      <h3>Many More Services Available</h3>
+      <p>The prices above are our current promotional offers. We handle a full range of business, visa, insurance, vehicle and government services. Contact us for a custom quote on any of the following.</p>
+      <div class="more-grid">
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20pricing%20for%20Business%20Setup%20%2F%20Company%20Formation." target="_blank" rel="noopener"><b>Business Setup &amp; Company Formation</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20UAE%20Golden%20Visa." target="_blank" rel="noopener"><b>UAE Golden Visa (10-Year)</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Employment%20%26%20Family%20Visas." target="_blank" rel="noopener"><b>Employment &amp; Family Visas</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Investor%20%26%20Partner%20Visas." target="_blank" rel="noopener"><b>Investor &amp; Partner Visas</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Visa%20Renewal%20%26%20Cancellation." target="_blank" rel="noopener"><b>Visa Renewal &amp; Cancellation</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Emirates%20ID%20%26%20Medical." target="_blank" rel="noopener"><b>Emirates ID &amp; Medical</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Car%20Permit%20%26%20Vehicle%20services." target="_blank" rel="noopener"><b>Car Permit &amp; Vehicle</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20PRO%20%26%20Government%20services." target="_blank" rel="noopener"><b>PRO &amp; Government Services</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Daman%20Fine%20Reduction." target="_blank" rel="noopener"><b>Daman Fine Reduction</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Virtual%20Office%2C%20Tenancy%20%26%20Ejari." target="_blank" rel="noopener"><b>Virtual Office, Tenancy &amp; Ejari</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Office%20Space%20Solutions." target="_blank" rel="noopener"><b>Office Space Solutions</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="more-chip" href="https://wa.me/971523120954?text=Hi%2C%20please%20share%20info%20on%20Health%20Insurance%20plans." target="_blank" rel="noopener"><b>Health Insurance Plans</b><span>Contact us for info <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section why" id="why">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Why Choose Us</span>
+      <h2>The Easy, Honest Way to Get It Done</h2>
+      <p>Highly experienced consultants handling stress-free, confidential processes from start to finish.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>100% Legal &amp; Safe</h3>
+        <p>Fully approved and compliant with UAE immigration laws, DLD and DED regulations.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Fast Turnaround</h3>
+        <p>24-hour and same-day options, timely updates and minimal delays on every file.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Transparent &amp; Affordable</h3>
+        <p>Competitive pricing with zero hidden charges. Low investment, high returns.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div>
+        <h3>Expert Team</h3>
+        <p>Experienced consultants who keep every process confidential and stress-free.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5 12 3l9 6.5V21H3V9.5Z"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3>All Under One Roof</h3>
+        <p>One partner for business, visa, workspace, insurance, vehicle and government needs.</p>
+      </div>
+      <div class="why-card reveal" style="display:flex;flex-direction:column;justify-content:center;background:var(--red);border-color:transparent">
+        <h3 style="color:#fff">Ready when you are</h3>
+        <p style="color:#ffe1e3;margin-bottom:16px">Get a free, no-obligation consultation today.</p>
+        <a class="btn btn-white" href="https://wa.me/971523120954?text=Hello%2C%20I%20would%20like%20a%20free%20consultation." target="_blank" rel="noopener" style="align-self:flex-start">Talk to Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BAND ============ -->
+<section class="section trust">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Trusted Across the UAE</span>
+      <h2>Business Owners &amp; Families We Help Every Day</h2>
+      <p>From first-time entrepreneurs to families securing their residence, clients across all seven Emirates rely on Fast Track Pro to make government paperwork simple.</p>
+      <div class="stats">
+        <div class="stat"><b>7</b><span>Emirates covered</span></div>
+        <div class="stat"><b>24h</b><span>Express options</span></div>
+        <div class="stat"><b>0</b><span>Hidden charges</span></div>
+      </div>
+    </div>
+    <div class="clients reveal">
+      <!-- Replace the names below with real, approved client testimonials when available -->
+      <div class="client">
+        <img src="assets/img/client-1.jpg" alt="Happy client">
+        <div class="c-body">
+          <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg></div>
+          <b>Business owner</b><span>Trade license renewal</span>
+        </div>
+      </div>
+      <div class="client">
+        <img src="assets/img/client-2.jpg" alt="Happy client">
+        <div class="c-body">
+          <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg></div>
+          <b>Investor</b><span>Golden Visa processing</span>
+        </div>
+      </div>
+      <div class="client">
+        <img src="assets/img/client-3.jpg" alt="Happy client">
+        <div class="c-body">
+          <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></svg></div>
+          <b>Family client</b><span>Residence &amp; insurance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE AREA ============ -->
+<section class="section area" id="area">
+  <img class="bgimg" src="assets/img/abu-dhabi-city.jpg" alt="">
+  <div class="container">
+    <span class="eyebrow" style="color:#ff6b76">Coverage</span>
+    <h2>Proudly Serving All Seven Emirates</h2>
+    <p>Based on Hamdan Street, Abu Dhabi, and working for clients right across the country.</p>
+    <div class="emirates">
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Abu Dhabi</span>
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Dubai</span>
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Sharjah</span>
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Ajman</span>
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Ras Al Khaimah</span>
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Fujairah</span>
+      <span class="emirate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Umm Al Quwain</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-info reveal">
+      <span class="eyebrow">Get In Touch</span>
+      <h2>Let's Make It Easy</h2>
+      <p>Message us on WhatsApp for the fastest reply, or send your details and we will get right back to you.</p>
+      <div class="ci-list">
+        <div class="ci">
+          <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <div><b>Visit Us</b><span>Hamdan Street, Abu Dhabi, UAE</span><span style="font-size:.86rem;color:var(--muted);font-weight:500">Serving Abu Dhabi, Al Reem Island &amp; Yas Island</span></div>
+        </div>
+        <div class="ci">
+          <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+          <div><b>Call or WhatsApp</b><a href="tel:+971523120954">+971 52 3120 954</a></div>
+        </div>
+        <div class="ci">
+          <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span>
+          <div><b>Email</b><a href="mailto:fasttrackpro936@gmail.com">fasttrackpro936@gmail.com</a></div>
+        </div>
+        <div class="ci">
+          <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <div><b>Working Hours</b><span>Saturday to Thursday: 9:00 AM to 9:30 PM</span><span style="font-size:.86rem;color:var(--muted);font-weight:500">Friday: Closed</span></div>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <a class="btn btn-wa" href="https://wa.me/971523120954?text=Hello%20Fast%20Track%20Pro%20Services%2C%20I%20would%20like%20to%20enquire." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.5A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.6-.1 1Z"/></svg>
+          WhatsApp Us</a>
+        <a class="btn btn-ghost" href="tel:+971523120954">Call Now</a>
+      </div>
+    </div>
+    <div class="form-card reveal">
+      <h3>Request a Free Quote</h3>
+      <p>Fill this in and we will reply on WhatsApp with your options.</p>
+      <form id="quoteForm">
+        <div class="field"><label for="qn">Full Name</label><input id="qn" name="name" required placeholder="Your name"></div>
+        <div class="field"><label for="qp">Phone Number</label><input id="qp" name="phone" required placeholder="05x xxx xxxx"></div>
+        <div class="field"><label for="qs">Service Needed</label>
+          <select id="qs" name="service">
+            <option>Business Setup &amp; Licensing</option>
+            <option>Visa &amp; Immigration</option>
+            <option>Insurance &amp; Fine Reduction</option>
+            <option>Car Permit &amp; Vehicle</option>
+            <option>PRO &amp; Government</option>
+            <option>Not sure, please advise</option>
+          </select>
+        </div>
+        <div class="field"><label for="qm">Message</label><textarea id="qm" name="message" placeholder="Tell us briefly what you need"></textarea></div>
+        <button type="submit" class="btn btn-red">Send via WhatsApp</button>
+        <p class="form-note">Opens WhatsApp with your details pre-filled. No charges to enquire.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logos/fast-track-pro-logo-white.png" alt="Fast Track Pro Services Group">
+        <p>Your trusted partner for business and PRO services across the UAE. Fast, reliable, professional. We make it easy.</p>
+        <div class="foot-soc">
+          <a href="https://www.facebook.com/FastTrackPROServices" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h3l1-3h-4V9c0-.6.4-1 1-1Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://wa.me/971523120954" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.5A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.6-.1 1Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#business-setup">Business Setup</a></li>
+          <li><a href="#visa-immigration">Visa &amp; Immigration</a></li>
+          <li><a href="#insurance">Insurance &amp; Fines</a></li>
+          <li><a href="#vehicle">Car &amp; Vehicle</a></li>
+          <li><a href="#pro-services">PRO &amp; Government</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#area">Coverage</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-contact">
+        <h4>Contact</h4>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Hamdan Street, Abu Dhabi, UAE</span></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><a href="tel:+971523120954">+971 52 3120 954</a></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg><a href="mailto:fasttrackpro936@gmail.com">fasttrackpro936@gmail.com</a></div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Fast Track Pro Services Group. All rights reserved.</span>
+      <span>Website by <a href="#">Quartermasters F.Z.C</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- floating whatsapp (all pages) -->
+<a class="fab" href="https://wa.me/971523120954?text=Hello%20Fast%20Track%20Pro%20Services%2C%20I%20would%20like%20to%20know%20more." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.5A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.6-.1 1Z"/></svg>
+</a>
+
+<script>
+// sticky nav shadow
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>10));
+
+// mobile menu
+const burger=document.getElementById('hamburger'),links=document.getElementById('navLinks');
+burger.addEventListener('click',()=>{burger.classList.toggle('open');links.classList.toggle('open')});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',e=>{
+  // mobile: tap "Services" toggles dropdown instead of navigating
+  const drop=document.getElementById('svcDrop');
+  if(innerWidth<=760 && a.parentElement===drop && a.querySelector('.caret')){e.preventDefault();drop.classList.toggle('open');return;}
+  burger.classList.remove('open');links.classList.remove('open');
+}));
+
+// scroll reveal
+const io=new IntersectionObserver((es)=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// quote form -> WhatsApp
+document.getElementById('quoteForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const f=e.target;
+  const msg=`Hello Fast Track Pro Services,%0A%0AName: ${encodeURIComponent(f.name.value)}%0APhone: ${encodeURIComponent(f.phone.value)}%0AService: ${encodeURIComponent(f.service.value)}%0AMessage: ${encodeURIComponent(f.message.value||'-')}`;
+  window.open(`https://wa.me/971523120954?text=${msg}`,'_blank');
+});
+
+// hide service-area bg image if it fails to load
+document.querySelectorAll('.area .bgimg').forEach(img=>img.addEventListener('error',()=>img.style.display='none'));
+</script>
+</body>
+</html>
